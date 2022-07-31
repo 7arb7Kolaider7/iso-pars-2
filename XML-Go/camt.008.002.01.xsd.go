@@ -1,3 +1,5 @@
+package schema
+
 // AdrLine https://www.iso20022.org/sites/default/files/documents/D7/Pain013%20Pain%20014%20Request%20to%20Pay%20Real%20Time%20Payment%20Sep2018_v0.1.pdf
 // Agt - Agent (Identification of a person, an organisation or a financial institution.)
 // Assgne Identification of a person, an organisation or a financial institution.
@@ -231,8 +233,6 @@
 // XchgRate ExchangeRate
 // XchgRate /Document/FIToFICstmrCdtTrf/CdtTrfTxInf/XchgRate
 // XchgRate Factor used to convert an amount from one currency into another. This reflects the price at which one currency was bought with another currency.
-
-package schema
 
 import (
 	"encoding/xml"
